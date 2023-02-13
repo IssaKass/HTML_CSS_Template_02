@@ -520,16 +520,16 @@
           <!-- End Contact Text -->
           <!-- Start Form -->
           <div class="holder contact-form">
-            <form action="">
+            <form method="get" action="index.php">
               <div>
-                <input type="text" placeholder="Full Name" />
-                <input type="text" placeholder="E-Mail Address" />
+                <input type="text" name="fullName" placeholder="Full Name" />
+                <input type="email" name="email" placeholder="E-Mail Address" />
               </div>
               <div>
-                <textarea placeholder="Your Message"></textarea>
+                <textarea name="message" placeholder="Your Message"></textarea>
               </div>
               <div>
-                <a href="#" class="main-button">Send message</a>
+                <input type="submit" value="Send message" class="main-button" />
               </div>
             </form>
           </div>
@@ -566,7 +566,8 @@
           <!-- End Social Media Links -->
           <div class="holder copyright">
             <p>
-              Copyright <small>&copy; 2020</small> Softy Pinko Company - Design: Templatemo
+              Copyright <small>&copy; 2020</small> Softy Pinko Company - Design:
+              Templatemo
             </p>
           </div>
         </div>
